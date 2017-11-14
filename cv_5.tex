@@ -1,0 +1,173 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=.60in,top=.60in,right=0.60in,bottom=0.60in]{geometry} % Document margins
+
+
+
+\name{JINGMIN YU} % Your name
+\address{jmyu1994@ufl.edu \quad \quad 352-222-1481 
+}
+
+\address{3700 SW 27th St D-306, Gainesville, FL, 32608} % Your address
+\begin{document}
+\vspace{-1.5em}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf M.Sc. Computer Science} \hfill {expected May. 2018}\\
+{\bf University of Florida(UF), Gainesville, FL}\\
+{\bf GPA 3.6/4.0}{\qquad Major Courses: Analysis of Algorithms, Advanced Data Structure, Cloud Computing, Computer Graphics, Computer Architecture}\vspace{0.4em}\\
+{\bf B.Sc. Electronic Engineering  } \hfill { Sep. 2012 - Jun. 2016} \\
+{\bf University of Science and Technology of China(USTC), Hefei, China} \\
+%/{\bf Department : Electronic Engineering \& Information Science (EEIS)}\\
+{\bf GPA 3.2/4.3}{\qquad Major Courses: Embedded Systems and Applications, Fundamentals of Speech Signal Processing, Fundamentals of Signal Statistical Modeling}
+\end{rSection}
+
+
+%\begin{rSection}{Research Interests}
+%{\bf Wireless Communication;  Signal processing;  Machine Learning; Pattern Recognition}
+%\end{rSection}
+
+
+
+\begin{rSection}{Research Experience}
+
+%\begin{rSubsection}{Design of precoders based on max-dmin for MIMO}{Jan. 2015 - Present}{Supervised by Associate Professor Xiaodong Xu}{Dept. of EEIS, USTC}
+%\item  Laboratory: Communication and Electronic System Laboratory of USTC.
+%\item Learned MIMO linear precoding techniques and extension of max-dmin precoder for
+%high-order QAM modulations as well as large MIMO systems.
+%\item Trying to come up with a better plan to design precoders based on max-dmin and
+%consider the extension from unicast scenario to multicast scenario.
+%\end{rSubsection}
+\begin{rSubsection}{Clustering on Frequency Hopping Signals}{Jan. 2015 - Jun. 2016}{Supervised by Prof. Xiaodong Xu}{Communication and Electronic System Laboratory of USTC}
+\item implemented k-means and a density-based clustering algorithm for analyzing frequency hopping signals
+\item built each step of simulation for analyzing frequency hopping signals on MATLAB
+\item resulted in the accuracy of network sorting and station separating both over 0.9 
+\end{rSubsection}
+
+%\begin{rSubsection}{Wireless Communication}{Jan. 2015 - May. 2015}{}{}
+%\item  learned a MIMO linear precoding technique called max-dmin criterion and sphere decoding technique
+%\item  tried to generate a general method facilitating sphere decoding in MIMO systems based on finite alphabet and sparse signal, referring to some algorithms in compressive sensing
+%\item  refered algorithms on compressive sensing and other convex optimization to solve the method above but failed
+%\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Course project of Statistical Signal Analysis }{Mar. 2015 - Jul. 2015}{Supervised by Professor Zhongfu Ye}{Dept. of EEIS, USTC}
+%%\item Referred a paper about
+%\item Proved that Bayes risk error was a Bregman divergence, which led to the convenience of proving several properties of BER.
+%\end{rSubsection}
+
+
+
+
+%\begin{rSubsection}{Course project of Digital Signal Processing }{ Sep. 2014 - Jan. 2015}{Supervised by Professor Guo Wei}{Dept. of EEIS, USTC}
+%\item Used Matlab tools to design filters and analyze the performance of the filters.
+%\item Investigated quantization error effects in digital filtering systems.
+%\end{rSubsection}
+
+\end{rSection}
+
+\begin{rSection}{Programming Experience}
+
+%\begin{rSubsection}{Course project of Fundamentals of Database Systems }{ Feb. 2015 - Jun. 2015}{Supervised by Doctor Pingbo Yuan}{Dept. of EEIS, USTC}
+%\item Learned the principles and core methods of Delphi7 to design  database systems.
+%\item Designed a library management database, which could realize the basic functions such as data input, delete and update.
+%\end{rSubsection}
+\begin{rSubsection}{PageRank on Wikipedia Pages(Scala, Spark, GraphX, AWS)}{Sep. 2017 - Oct. 2017}{}{}
+\item built an Apache Spark cluster with HDFS on AWS EC2
+\item programmed in Scala and computed the ranks of Wikipedia pages based on 31GB Freebase Wikipedia Extraction data
+\item compared performance of pure Spark and GraphX
+\end{rSubsection}
+\begin{rSubsection}{Google Autocomplete(Java, MapReduce, Docker, MAMP)}{July. 2017 - Aug. 2017}{}{}
+\item constructed N-Gram Library from Wikipedia data and created Language Model based on statistical probability, saved data to MySQL database
+\item designed a webpage with HTML/CSS, JQuery, PHP and Ajax to present results
+\end{rSubsection}
+\begin{rSubsection}{Android TodoList(Java, XML, Android Studio)}{June. 2017 - July. 2017}{}{}
+\item designed main page with ListView and Fab
+\item optimized memory consumption and glide fluency with recycled view and convertView
+\item used Android AlarmManager and NotificationManager to remind users of unfinished business
+\end{rSubsection}
+
+
+
+
+%\begin{rSubsection}{Course Project for Digital Signal Processing}{Oct. 2014 - Dec. 2015}{}{}
+%\item analysed effect of sampling rate and quantization for a speech signal using Matlab and  Adobe Audition
+%\item designed a filter with Matlab and dissected quantization effects for an IIR filter
+%\end{rSubsection}
+
+\begin{rSubsection}{Internet Chat Application(Java, Eclipse, Swing)}{Oct. 2016 - Nov. 2016}{}{}
+\item programmed in Java and utilized Socket Programming on Eclipse
+\item realized unicasting and broadcasting message and file on multi-threads
+\item designed a concise GUI with Java Swing to manipulate the application and show results
+\end{rSubsection}
+
+%\begin{rSubsection}{MIPS Simulator(Java}{Oct. 2016 - Nov. 2016}{}{}
+%\item developed a disassembler and a cycle-by-cycle MIPS simulator in Java
+%\item implemented advanced pipeline using Tomasulo algorithm with out-of-order execution and in-order commit along with a Branch Predictor using Branch Target Buffer
+%\end{rSubsection}
+
+
+\begin{rSubsection}{Arm-like device(C++, OpenGL, Blender, Xcode)}{Sep. 2016 - Nov. 2016}{}{}
+\item used Blender to draw an arm-like object and applied OpenGL to manipulate and show on Xcode
+\item accomplished picking and rotating for each part of the device 
+\item displayed a 3D model and automate fitting the texture via ray casting
+\end{rSubsection}
+
+
+%\begin{rSubsection}{Library Database GUI}{Apr. 2015 - May. 2015}{}{}
+%\item designed a library management database
+%\item developed a GUI program with Delphi7 and manipulated Windows Access Database with embedded SQL language
+
+%\item obtained the patience as well as concentration to make a qualified program
+%\end{rSubsection}
+
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\end{rSection}
+
+\begin{pSection}{Skills}
+\item Languages: Java, Python, C/C++, MATLAB, SQL, Scala, HTML/CSS, Javascript, PHP
+\item Frameworks and Tools: Apache Hadoop/Spark, Swing(Java), Maven, jQuery, TensorFlow, Docker, Android Studio, IntelliJ, Git, Linux.
+%\item Softwares$\&$Platforms: Matlab, QuartusII, Delphi7, Eclipse, Xcode, Visual Studio
+\end{pSection}
+
+
+
+%\begin{rSection}{English Proficiency }
+%TOFEL iBT: 92      (R: , L: 25, S: 18, W: 23)\\
+%GRE : 322 + 3.0 (V152, Q170, AW:3.0)
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
