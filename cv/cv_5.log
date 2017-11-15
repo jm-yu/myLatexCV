@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  13 NOV 2017 21:42
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  14 NOV 2017 23:19
  restricted system commands enabled.
 **cv_5.tex
 (./cv_5.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.166 seconds
+luaotfload | main : initialization completed in 0.317 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
@@ -326,40 +326,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 (load luc: /Users/jmyu/Library/texlive/2017/texmf-var/luatex-cache/generic/fonts
 /otl/lmroman17-regular.luc)(load luc: /Users/jmyu/Library/texlive/2017/texmf-var
 /luatex-cache/generic/fonts/otl/lmroman12-bold.luc)
-</Users/jmyu/Documents/git/myLatexCV/images/phone.png, id=4, 193.72375pt x 261.
-97874pt>
-File: /Users/jmyu/Documents/git/myLatexCV/images/phone.png Graphic file (type pn
-g)
- <use /Users/jmyu/Documents/git/myLatexCV/images/phone.png>
-Package luatex.def Info: /Users/jmyu/Documents/git/myLatexCV/images/phone.png us
-ed on input line 45.
+<./images/phone.png, id=4, 193.72375pt x 261.97874pt>
+File: ./images/phone.png Graphic file (type png)
+ <use ./images/phone.png>
+Package luatex.def Info: ./images/phone.png used on input line 45.
 (luatex.def)             Requested size: 6.39378pt x 8.64651pt.
 
-</Users/jmyu/Documents/git/myLatexCV/images/email.png, id=6, 11.24005pt x 11.24
-005pt>
-File: /Users/jmyu/Documents/git/myLatexCV/images/email.png Graphic file (type pn
-g)
- <use /Users/jmyu/Documents/git/myLatexCV/images/email.png>
-Package luatex.def Info: /Users/jmyu/Documents/git/myLatexCV/images/email.png us
-ed on input line 45.
+<./images/email.png, id=6, 11.24005pt x 11.24005pt>
+File: ./images/email.png Graphic file (type png)
+ <use ./images/email.png>
+Package luatex.def Info: ./images/email.png used on input line 45.
 (luatex.def)             Requested size: 7.86797pt x 7.86797pt.
 
-</Users/jmyu/Documents/git/myLatexCV/images/linkedin.png, id=9, 339.2675pt x 33
-9.2675pt>
-File: /Users/jmyu/Documents/git/myLatexCV/images/linkedin.png Graphic file (type
- png)
- <use /Users/jmyu/Documents/git/myLatexCV/images/linkedin.png>
-Package luatex.def Info: /Users/jmyu/Documents/git/myLatexCV/images/linkedin.png
- used on input line 45.
-(luatex.def)             Requested size: 8.47958pt x 8.47958pt.
+<./images/linkedin.png, id=9, 339.2675pt x 339.2675pt>
+File: ./images/linkedin.png Graphic file (type png)
 
-</Users/jmyu/Documents/git/myLatexCV/images/github.png, id=12, 120.45pt x 120.4
-5pt>
-File: /Users/jmyu/Documents/git/myLatexCV/images/github.png Graphic file (type p
-ng)
- <use /Users/jmyu/Documents/git/myLatexCV/images/github.png>
-Package luatex.def Info: /Users/jmyu/Documents/git/myLatexCV/images/github.png u
-sed on input line 45.
+<use ./images/linkedin.png>
+Package luatex.def Info: ./images/linkedin.png used on input line 45.
+(luatex.def)             Requested size: 8.47958pt x 8.47958pt.
+ <./images/github.png, id=12, 120.45pt x 120.45pt>
+File: ./images/github.png Graphic file (type png)
+
+<use ./images/github.png>
+Package luatex.def Info: ./images/github.png used on input line 45.
 (luatex.def)             Requested size: 8.43236pt x 8.43236pt.
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 45--45
@@ -378,10 +367,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
  [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}</Users/jm
-yu/Documents/git/myLatexCV/images/phone.png></Users/jmyu/Documents/git/myLatexCV
-/images/email.png></Users/jmyu/Documents/git/myLatexCV/images/linkedin.png></Use
-rs/jmyu/Documents/git/myLatexCV/images/github.png>]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}<./images/
+phone.png><./images/email.png><./images/linkedin.png><./images/github.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
  (./cv_5.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
