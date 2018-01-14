@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  13 NOV 2017 21:44
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)  (format=lualatex 2017.5.23)  14 JAN 2018 15:31
  restricted system commands enabled.
 **cv_5.tex
 (./cv_5.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.177 seconds
+luaotfload | main : initialization completed in 0.138 seconds
 Babel <3.10> and hyphenation patterns for 1 language(s) loaded.
 (./resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
@@ -358,7 +358,7 @@ Here is how much of LuaTeX's memory you used:
  363 words of node memory still in use:
    2 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 47 glue_spec, 3 attribute_list
 , 1 write nodes
-   avail lists: 2:404,3:114,4:7,5:161,6:2568,7:791,8:6,9:108,10:6,11:220
+   avail lists: 2:404,3:114,4:7,5:165,6:2568,7:792,8:6,9:108,10:6,11:219
  9889 multiletter control sequences out of 65536+600000
  29 fonts using 1872175 bytes
  35i,4n,23p,309b,325s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -368,7 +368,7 @@ f></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman10-regular
 .otf></usr/local/texlive/2017/texmf-dist/fonts/opentype/public/lm/lmroman12-bold
 .otf></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb>
-Output written on cv_5.pdf (1 page, 33706 bytes).
+Output written on cv_5.pdf (1 page, 33739 bytes).
 
 PDF statistics: 45 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream
