@@ -1,4 +1,4 @@
-I will graduate in May 2018. I am looking for a job as a software development engineer.
+I will receive my Master's Degree of Computer Science in May 2018. I am looking for a job as a software development engineer.
 
 Edit CV and with LaTeX.
 11/14/2017: adjust row spacing in .cls file
