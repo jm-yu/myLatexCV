@@ -28,7 +28,7 @@
 \usepackage{hyperref} 
 \usepackage{graphicx}
 \pagestyle{empty} % Suppress page numbers
-\graphicspath{{./images/}} 
+\graphicspath{{/Users/jmyu/cv/images/}} 
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
